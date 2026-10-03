@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>clipboard-1719736_960_720.ico</ApplicationIcon>
+    <Authors>Kim Văn Trường</Authors>
+    <AssemblyName>Quản Lý Hồ Sơ</AssemblyName>
+    <AssemblyTitle>Quản Lý Hồ Sơ</AssemblyTitle>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="clipboard-1719736_960_720.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.1.0" />
+  </ItemGroup>
+
+</Project>
